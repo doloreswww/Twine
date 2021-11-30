@@ -1,9 +1,38 @@
- p {
-	font-family: "Times New Roman", Times, serif;
-	font-size: 14px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 20px;
-    color: #e88888;
+tw-story[tags~="intro"] {
+        
+  background-image: url("https://doloreswww.github.io/Twine/image/background.gif");
+        background-repeat: no-repeat;
+        background-size:cover;
+  		font-family: Cinzel, serif;
+  font-size: 46px; 
+      }
+tw-story[tags~="everythingelse"] {
+  background-color:#FFFAF0
 }
+tw-story[tags~="dashin"] {
+        background-image: url("https://doloreswww.github.io/Twine/image/background.gif");
+        background-repeat: no-repeat;
+        background-size:cover;
+}
+
+tw-story[tags~="painting1"] {
+        background-image: url("https://doloreswww.github.io/Twine/image/chase.jpeg");
+  	opacity: 0.75;
+        background-repeat: no-repeat;
+        background-size:cover;
+      }
+tw-story[tags~="painting1-2"] {
+        background-image: url("https://doloreswww.github.io/Twine/image/dark.gif");
+        background-repeat: no-repeat;
+        background-size:cover;
+      }
+tw-story[tags~="painting3"] {
+        background-image: url("https://doloreswww.github.io/Twine/image/tree.jpeg");
+        background-repeat: no-repeat;
+        background-size:cover;
+      }
+tw-story[tags~="talk"] {
+        background-image: url("https://doloreswww.github.io/Twine/image/cry.jpeg");
+        background-repeat: no-repeat;
+        background-size:cover;
+      }
